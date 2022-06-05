@@ -22,6 +22,8 @@ public class Order {
     @ElementCollection
     private List<Integer> productIds;
 
+    private double totalPrice;
+
 
 
 }
