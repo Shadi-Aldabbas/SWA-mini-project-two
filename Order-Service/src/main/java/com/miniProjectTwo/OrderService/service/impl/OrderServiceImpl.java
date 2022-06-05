@@ -26,6 +26,14 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order save(Order p) {
+        double MamaMia = 0.00;
+        for(int productId:p.getProductIds()){
+            Product product =
+                    restTemplate.getForObject("http://localhost:9001/product/" + productId
+                            ,Product.class);
+            MamaMia = MamaMia + Double.parseDouble(product.getPrice());
+        }
+        p.setTotalPrice(MamaMia);
         return orderRepo.save(p);
     }
 
@@ -34,10 +42,11 @@ public class OrderServiceImpl implements OrderService {
         log.info("Inside getOrderWithProducts of Order-Service");
         OrderWithProductVO orderWithProductVO = new OrderWithProductVO();
         Order order = orderRepo.findByOrderId(id);
+        System.out.println(order);
         List<Product> products = new ArrayList<>();
         for(int productId:order.getProductIds()){
             Product product =
-                    restTemplate.getForObject("http://localhost:9001/products/" + productId
+                    restTemplate.getForObject("http://localhost:9001/product/" + productId
                             ,Product.class);
             products.add(product);
         }
