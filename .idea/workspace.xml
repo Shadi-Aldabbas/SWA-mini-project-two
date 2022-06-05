@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb6e6b5-0c0b-409c-932e-121ac9e59aa8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/miniProjectTwo/OrderService/OrderServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/test/java/com/miniProjectTwo/OrderService/OrderServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/miniProjectTwo/accountservice/AccountServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/test/java/com/miniProjectTwo/accountservice/AccountServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/miniProjectTwo/productservice/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/miniProjectTwo/productservice/ProductServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +20,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +35,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654390212363</updated>
       <workItem from="1654390218640" duration="27000" />
+      <workItem from="1654458924562" duration="52000" />
+      <workItem from="1654459018002" duration="53000" />
     </task>
     <servers />
   </component>
