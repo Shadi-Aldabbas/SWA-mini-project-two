@@ -29,7 +29,7 @@ public class OrderServiceImpl implements OrderService {
         double MamaMia = 0.00;
         for(int productId:p.getProductIds()){
             Product product =
-                    restTemplate.getForObject("http://localhost:9001/product/" + productId
+                    restTemplate.getForObject("http://PRODUCT-SERVICE/product/" + productId
                             ,Product.class);
             MamaMia = MamaMia + Double.parseDouble(product.getPrice());
         }
@@ -46,7 +46,7 @@ public class OrderServiceImpl implements OrderService {
         List<Product> products = new ArrayList<>();
         for(int productId:order.getProductIds()){
             Product product =
-                    restTemplate.getForObject("http://localhost:9001/product/" + productId
+                    restTemplate.getForObject("http://PRODUCT-SERVICE/product/" + productId
                             ,Product.class);
             products.add(product);
         }
