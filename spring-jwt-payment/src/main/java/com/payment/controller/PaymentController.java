@@ -25,7 +25,8 @@ import java.util.Map;
 public class PaymentController {
 
     private Map<String, LoginRequest> users = new HashMap<String, LoginRequest>();
-    private String orderUrl = "http://localhost:9002/order";
+//    private String orderUrl = "http://localhost:9002/order";
+    private String orderUrl = "http://ORDER-SERVICE/order";
 
     @Autowired
     private AccountRepository accountRepository;
