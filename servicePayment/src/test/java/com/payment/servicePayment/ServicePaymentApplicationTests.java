@@ -1,9 +1,13 @@
-package com.miniProjectTwo.OrderService;
+package com.payment.servicePayment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderServiceApplicationTests {
+class ServicePaymentApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
 
 }
