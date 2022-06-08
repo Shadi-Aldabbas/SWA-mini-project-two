@@ -20,7 +20,37 @@ spec:
         imagePullPolicy: Never
         ports:
           - containerPort: 9003
-
+        env:
+        - name: DB_URL  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  url
+        - name: DB_USERNAME  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  username
+        - name: DB_DRIVER  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  driverClassName
+        - name: JWT_SERCRETKEY  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  jwtSecret
+        - name: DB_PASSWORD  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  password
+        - name: EUREKA_ADDRESS  
+          valueFrom :
+            secretKeyRef :
+              name : mysecret
+              key :  eureka_Address
 ---
 apiVersion: v1
 kind: Service

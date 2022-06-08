@@ -19,7 +19,13 @@ spec:
           image: product-service:0.0.1
           imagePullPolicy: Never
           ports:
-            - containerPort: 9001
+          - containerPort: 9001
+          env:
+          - name: EUREKA_ADDRESS  
+            valueFrom :
+              secretKeyRef :
+                name : mysecret
+                key :  eureka_Address
 
 ---
 apiVersion: v1
