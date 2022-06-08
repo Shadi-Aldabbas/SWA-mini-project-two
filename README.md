@@ -10,7 +10,7 @@ then go to kubernate config file and run "kubectl apply -f ./" on powershell
   
 then download kube-forward app from "https://github.com/pixel-point/kube-forwarder"
   
-the rest are more like steps I will explain in video
+the rest are more like steps I will explain in video "https://drive.google.com/file/d/1dmlBHaGf1fkHvOSZLAcfN3yHjSs3bgHJ/view?usp=sharing"
 
 Thanks,
   
